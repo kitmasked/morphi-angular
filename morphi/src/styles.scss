@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Roboto Mono */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Nunito Sans */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+/* -------------------------------------------------- */
+/* Color Scheme */
+/* -------------------------------------------------- */
+
+$color1: #090302; // Smoky Black
+$color2: #fcfcfc; // Basically White
+$color3: #087CA7; // Celadon Blue
+$color4: #ffbf00; // Amber
+$color5: #f45b69; // Fiery Rose
+
+/* -------------------------------------------------- */
+/* Type System */
+/* -------------------------------------------------- */
+
+$type-system__font-family: "Roboto", sans-serif;
+$type-system__field-value-size: 16px;
+$type-system__select-option-size: 13px;
+$type-system__select-options-weight: 500;
+
+* {
+  font-family: $type-system__font-family;
+}
+
+.title {
+  font-family: $type-system__font-family;
+  font-weight: 100;
+  font-size: 99px;
+  color: $color1;
+  letter-spacing: -0.03em;
+}
+
+.h1 {
+  font-family: $type-system__font-family;
+  font-weight: 900;
+  font-size: 66px;
+  letter-spacing: -0.03em;
+  color: $color1;
+}
+
+.h2 {
+  font-family: $type-system__font-family;
+  font-weight: 900;
+  font-size: 44px;
+  color: $color1;
+}
+
+.h3 {
+  font-family: $type-system__font-family;
+  font-weight: 900;
+  font-size: 29px;
+  color: $color1;
+}
+
+.h4 {
+  font-family: $type-system__font-family;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: $color1;
+}
+
+.body {
+  font-family: $type-system__font-family;
+  font-weight: 400;
+  font-size: 13px;
+  color: $color1;
+}
