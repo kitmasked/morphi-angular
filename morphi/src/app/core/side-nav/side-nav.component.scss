@@ -1,1 +1,39 @@
 @import "../../../styles.scss";
+
+.side-nav-container {
+  background-color: $color2;
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid $color1;
+  height: 100vh;
+  box-shadow: $box-shadow-x;
+}
+
+.logo {
+  font-family: $type-system__font-family;
+  font-weight: 900;
+  font-size: 56px;
+  color: $color1;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  margin-bottom: 56px;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-link {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.spacer {
+  flex-grow: 1;
+}

@@ -12,10 +12,17 @@
 /* -------------------------------------------------- */
 
 $color1: #090302; // Smoky Black
-$color2: #fcfcfc; // Basically White
-$color3: #087CA7; // Celadon Blue
+$color2: #f5f5f5; // Cultured
+$color3: #087ca7; // Celadon Blue
 $color4: #ffbf00; // Amber
 $color5: #f45b69; // Fiery Rose
+
+/* -------------------------------------------------- */
+/* Color Scheme */
+/* -------------------------------------------------- */
+
+$box-shadow-y: 0px 2px 4px lighten(black, 75%);
+$box-shadow-x: 2px 0px 4px lighten(black, 75%);
 
 /* -------------------------------------------------- */
 /* Type System */
@@ -28,6 +35,10 @@ $type-system__select-options-weight: 500;
 
 * {
   font-family: $type-system__font-family;
+}
+
+body {
+  margin: 0;
 }
 
 .title {
