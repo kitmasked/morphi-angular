@@ -1,0 +1,15 @@
+@import "../styles.scss";
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  flex-grow: 1;
+}
