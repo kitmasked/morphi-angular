@@ -1,0 +1,14 @@
+<div *ngIf="isEditable()">
+  <div>
+    <label for="input-field" class="field-label">
+      {{ label }}
+    </label>
+  </div>
+  <div>
+    <input
+      id="input-field"
+      class="field__input field-value"
+      [(ngModel)]="value"
+    />
+  </div>
+</div>

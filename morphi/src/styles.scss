@@ -85,3 +85,51 @@ body {
   font-size: 13px;
   color: $color1;
 }
+
+.field-label {
+  font-family: $type-system__font-family;
+  font-weight: 300;
+  font-size: 10px;
+  color: $color1;
+}
+
+.field-helper-message {
+  font-family: $type-system__font-family;
+  font-weight: 300;
+  font-size: 10px;
+  color: $color1;
+}
+
+.field-value {
+  font-family: $type-system__font-family;
+  font-weight: 500;
+  font-size: 12px;
+  color: $color1;
+}
+
+.button-label {
+  font-family: $type-system__font-family;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: $color1;
+}
+
+/* -------------------------------------------------- */
+/* Fields */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Shared */
+/* -------------------------------------------------- */
+
+.field__input {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  width: 100%;
+}
+
+.field__input:focus {
+  outline: none;
+}
